@@ -70,7 +70,9 @@ h1 {
   color: white;
   margin-left: 1.3rem;
 }
-
+strong {
+  margin-right: 0.5em;
+}
 /* main */
 
 /* sections settings */
@@ -98,6 +100,17 @@ h2 {
 .bggrey {
   background-color: #f6f6f6;
 }
+.buttonviolet {
+  background-color: var(--bgviolet);
+  color: white;
+}
+h3 {
+  margin-bottom: 2rem;
+}
+.bgimage {
+  background-image: url(../img/stars.svg);
+  background-size: contain top;
+}
 
 /* position rule 'Flex' */
 .displayflex {
@@ -107,6 +120,7 @@ h2 {
 .space-between {
   justify-content: space-between;
 }
+
 .align-center {
   align-items: center;
 }

@@ -71,27 +71,8 @@ h1 {
   margin-left: 1.3rem;
 }
 
-/* position rule 'Flex' */
-.displayflex {
-  display: flex;
-  flex-flow: row wrap;
-}
-.space-between {
-  justify-content: space-between;
-}
-.align-center {
-  align-items: center;
-}
-
-.flow-column {
-  flex-flow: column wrap;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
 /* main */
+
 /* sections settings */
 section {
   padding: 3rem;
@@ -111,4 +92,29 @@ h2 {
 .p-section {
   color: black;
   font-size: larger;
+  line-height: 1.6rem;
+}
+
+.bggrey {
+  background-color: #f6f6f6;
+}
+
+/* position rule 'Flex' */
+.displayflex {
+  display: flex;
+  flex-flow: row wrap;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+
+.flow-column {
+  flex-flow: column wrap;
+}
+
+.justify-center {
+  justify-content: center;
 }

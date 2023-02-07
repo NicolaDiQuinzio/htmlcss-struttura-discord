@@ -27,9 +27,10 @@ header {
   background-size: cover;
 }
 /* navbar */
-ul {
+.navbar {
   list-style: none;
   cursor: pointer;
+  min-width: 50%;
 }
 header li {
   padding-right: 1rem;
@@ -55,6 +56,7 @@ h1 {
 .p-title {
   margin-bottom: 1rem;
 }
+
 /* buttons sections */
 .button {
   padding: 10px;
@@ -111,6 +113,53 @@ h3 {
   background-image: url(../img/stars.svg);
   background-size: contain top;
 }
+/* footer  */
+footer {
+  background-color: var(--bgblack);
+  padding: 2rem;
+  color: var(--bggrey);
+}
+#footer-title {
+  color: var(--bgviolet);
+  font-size: 2rem;
+}
+.displaypart3 {
+  max-width: 25%;
+}
+.flag {
+  width: 20px;
+}
+small {
+  color: var(--bggrey);
+  margin-left: 1rem;
+}
+.icons {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  max-width: 50%;
+}
+ul {
+  min-width: 70%;
+  list-style: none;
+}
+h4 {
+  color: var(--bgviolet);
+  font-size: 13px;
+}
+ul li {
+  color: var(--bggrey);
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+hr {
+  border-top: 1px solid var(--bggrey);
+}
+#imgfooter {
+  width: 120px;
+}
+.marginfooter {
+  margin-top: 1rem;
+}
 
 /* position rule 'Flex' */
 .displayflex {
@@ -131,4 +180,8 @@ h3 {
 
 .justify-center {
   justify-content: center;
+}
+
+.section div div {
+  padding-left: 1rem;
 }
